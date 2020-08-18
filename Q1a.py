@@ -18,3 +18,11 @@ for i in points:
 avg_distance = sum/total_pairs
 
 print("The average distance between two points is ", avg_distance, "units.")
+
+
+'''
+
+Please input the number of equidistant points:6                                                                                                                                    
+The average distance between two points is  1.9444444444444444 units.
+
+'''
