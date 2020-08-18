@@ -37,3 +37,23 @@ for i in range(len(matrix_m)):
 print("M x N =")
 for i in matrix_L:
     print(i)
+
+    
+'''
+
+Vector A is= [10, 0, 1]
+Marix M is: 
+[5, 10, 7]
+[9, -2, 3]
+[0, 17, 3]
+Matrix N is: 
+[1, 3, -5]
+[-2, 0, 7]
+[2, 6, 11]
+M x A = [57, 93, 3]
+M x N =
+[-1, 57, 122]
+[19, 45, -26]
+[-28, 18, 152]
+
+'''
