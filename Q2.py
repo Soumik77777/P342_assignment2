@@ -20,3 +20,13 @@ for i,j in zip(A,B):
     product =[i*j for i,j in zip(A,B)]
     dotproduct += i*j
 print ("A.B=", dotproduct)
+
+
+'''
+
+The first vector is [10, 0, 1]                                                                                                                                                     
+The second vector is [-4, 3, 7]                                                                                                                                                    
+A+B= [6, 3, 8]                                                                                                                                                                     
+A.B= -33                                                                                                                                                                            
+
+'''
