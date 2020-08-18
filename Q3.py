@@ -9,11 +9,11 @@ with open("matrix_n.txt", 'r' ) as b:
     matrix_n = [[int(num) for num in row.split(' ')] for row in b]
 
 
-print("Vector A is=", A)
-print("Marix M is: ")
+print("Vector A =", A)
+print("Matrix M = ")
 for i in matrix_m:
     print(i)
-print("Matrix N is: ")
+print("Matrix N = ")
 for j in matrix_n:
     print(j)
 
@@ -41,12 +41,12 @@ for i in matrix_L:
     
 '''
 
-Vector A is= [10, 0, 1]
-Marix M is: 
+Vector A = [10, 0, 1]
+Matrix M = 
 [5, 10, 7]
 [9, -2, 3]
 [0, 17, 3]
-Matrix N is: 
+Matrix N = 
 [1, 3, -5]
 [-2, 0, 7]
 [2, 6, 11]
