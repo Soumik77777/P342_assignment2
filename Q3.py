@@ -5,7 +5,7 @@ A = [10,0,1]
 
 with open("matrix_m.txt", 'r' ) as a:
     matrix_m = [[int(num) for num in row.split(' ')] for row in a]
-with open("n.txt", 'r' ) as b:
+with open("matrix_n.txt", 'r' ) as b:
     matrix_n = [[int(num) for num in row.split(' ')] for row in b]
 
 
