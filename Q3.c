@@ -14,7 +14,7 @@ int main()
 	FILE *x;
 	FILE *y;
 
-	x = fopen("matrix_m.txt","a");
+	x = fopen("matrix_m.txt","r");
 	if (x == NULL)
 		exit(0);
 
@@ -37,7 +37,7 @@ int main()
 
 
 
-	y = fopen("matrix_n.txt", "a");
+	y = fopen("matrix_n.txt", "r");
 	if (y == NULL)
 		exit(0);
 
