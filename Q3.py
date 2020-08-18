@@ -9,7 +9,7 @@ with open("matrix_n.txt", 'r' ) as b:
     matrix_n = [[int(num) for num in row.split(' ')] for row in b]
 
 
-print("Vector A is=", vec_A)
+print("Vector A is=", A)
 print("Marix M is: ")
 for i in matrix_m:
     print(i)
