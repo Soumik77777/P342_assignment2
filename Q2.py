@@ -6,8 +6,8 @@ B = [-4,3,7]
 
 dotproduct=0
 
-print("The first vector is", A)
-print("The second vector is", B)
+print("The first vector =", A)
+print("The second vector =", B)
 
 #A+B
 sum=0
@@ -24,8 +24,8 @@ print ("A.B=", dotproduct)
 
 '''
 
-The first vector is [10, 0, 1]                                                                                                                                                     
-The second vector is [-4, 3, 7]                                                                                                                                                    
+The first vector = [10, 0, 1]                                                                                                                                                     
+The second vector = [-4, 3, 7]                                                                                                                                                    
 A+B= [6, 3, 8]                                                                                                                                                                     
 A.B= -33                                                                                                                                                                            
 
