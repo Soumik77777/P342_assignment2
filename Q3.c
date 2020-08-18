@@ -9,8 +9,8 @@ int main()
     
     int A[] = {10,0,1};
 	
-	int Matrix_M[3][3];
-	int Matrix_N[3][3];
+	int M[3][3];
+	int N[3][3];
 	FILE *x;
 	FILE *y;
 
@@ -22,7 +22,7 @@ int main()
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			fscanf(x, "%d ", &Matrix_M[i][j]);
+			fscanf(x, "%d ", &M[i][j]);
 		}
 	}
 	printf("Matrix M = \n");
@@ -30,7 +30,7 @@ int main()
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			printf("%d ", Matrix_M[i][j]);
+			printf("%d ", M[i][j]);
 		}
 		printf("\n");
 	}
@@ -45,7 +45,7 @@ int main()
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			fscanf(y, "%d ", &Matrix_N[i][j]);
+			fscanf(y, "%d ", &N[i][j]);
 		}
 	}
 	printf("\nMatrix N =\n");
@@ -53,7 +53,7 @@ int main()
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			printf("%d ", Matrix_N[i][j]);
+			printf("%d ", N[i][j]);
 		}
 		printf("\n");
 	}
@@ -67,7 +67,7 @@ int main()
 	{
 		for (int j = 0; j < 3; j++)
 		{
-			MA[i] += (A[j] * Matrix_M[i][j]);
+			MA[i] += (A[j] * M[i][j]);
 		}
 		printf("%d\n", MA[i]);
 	}
@@ -82,7 +82,7 @@ int main()
 		{
 			MN[i][j] = 0;
 			for (int k = 0; k < 3; k++)
-				MN[i][j] = MN[i][j] + Matrix_M[i][k] * Matrix_N[k][j];
+				MN[i][j] = MN[i][j] + M[i][k] * N[k][j];
 			printf("%d ", MN[i][j]);
 		}
 		printf("\n");
